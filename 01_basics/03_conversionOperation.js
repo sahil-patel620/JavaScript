@@ -53,14 +53,13 @@ console.log(1 + "2");
 console.log("1" + 2 + 2);  // all are treated as string because 1 is string
 console.log(1 + 2 + "2");  // output : 32
 
-console.log( (3 + 4) * 5 % 3);
+console.log( (3 + 4) * 5 % 3);  // output: 2
 
-console.log(+true);
-console.log(+"");
+// console.log(+true);      not prefered
+// console.log(+"");
 
-let num1, num2, num3
-
-num1 = num2 = num3 = 2 + 2
+// let num1, num2, num3        not prefered because of bad readability 
+// num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
 ++gameCounter;
