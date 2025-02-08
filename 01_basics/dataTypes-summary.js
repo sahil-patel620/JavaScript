@@ -1,4 +1,6 @@
 
+// JavaScript is a dynamically typed language. This means that the type of a variable is checked during runtime
+
 //  Primitive types
 
 //  7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
