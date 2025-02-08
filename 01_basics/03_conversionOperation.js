@@ -50,8 +50,8 @@ console.log(str3);
 
 console.log("1" + 2);
 console.log(1 + "2");
-console.log("1" + 2 + 2);
-console.log(1 + 2 + "2");
+console.log("1" + 2 + 2);  // all are treated as string because 1 is string
+console.log(1 + 2 + "2");  // output : 32
 
 console.log( (3 + 4) * 5 % 3);
 
