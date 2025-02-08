@@ -10,7 +10,7 @@ console.log(balance.toFixed(10)); // returns string representing a number of fix
 
 const otherNumber = 123.85;
 
-console.log(otherNumber.toPrecision(8)); // is used to format the number to the specified precision
+console.log(otherNumber.toPrecision(3)); // is used to format the number to the specified precision .it will also round of in case of decimal 
 
 const hundreds = 1000000;
 console.log(hundreds.toLocaleString("en-IN"));
