@@ -20,7 +20,7 @@ console.log(real_another_array);
 
 console.log(Array.isArray("Sahil")); //to check is array or not
 console.log(Array.from("Sahil")); // to convert into array
-console.log(Array.from({ name: "Sahil" })); // interesting
+// console.log(Array.from({ name: "Sahil" })); // interesting
 
 let score1 = 100;
 let score2 = 200;
