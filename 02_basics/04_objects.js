@@ -76,6 +76,9 @@ console.log(name); // Outputs: John
 console.log(age); // Outputs: 30
 console.log(city); // Outputs: New York
 
+
+// API TALKS
+
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
