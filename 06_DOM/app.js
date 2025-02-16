@@ -21,10 +21,13 @@ addOptiLanguage('golang')
 const secondLang = document.querySelector("li:nth-child(2)")
 console.log(secondLang);
 secondLang.innerHTML = "Mojo"
-//replace 
+
+//replace (optimized way of editing)
 const newli = document.createElement('li')
-newli.textContent = "Mojo"
-secondLang.replaceWith(newli)
+const pi = document.createElement('p')
+pi.innerHTML = "hi hello frnds how are you "
+// newli.textContent = "Mojo"
+secondLang.replaceWith(pi)
 
 //edit 2nd way 
 const firstLang = document.querySelector("li:first-child")
