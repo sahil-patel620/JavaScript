@@ -9,10 +9,10 @@ addLanguage("Typescript")
 addLanguage("Java")
 addLanguage('C++')
 
-//function to add list using createTextNode
+//function to add list using createTextNode (optimized than previous one)
 function addOptiLanguage(langName){
     const li = document.createElement('li');
-    li.appendChild(document.createTextNode(langName))
+    li.appendChild(document.createTextNode(langName))   //Creates a text string from the specified value.
     document.querySelector('.language').appendChild(li)
 }
 addOptiLanguage('golang')
