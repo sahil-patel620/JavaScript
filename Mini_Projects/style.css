@@ -30,6 +30,11 @@ nav a{
     text-align: center;
     text-decoration: none;
     color: #1b1b1b;
+    transition:all 0.3 ease;
+}
+nav a:hover{
+    transform: scale(1.01);
+    background-color: rgb(238, 216, 188);
 }
 
 nav a[aria-current='page']{
