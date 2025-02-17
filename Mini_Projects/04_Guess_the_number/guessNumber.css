@@ -1,0 +1,72 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #272525;
+    color: #fff;
+    text-align: center;
+}
+
+button{
+    background-color: #df2222;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-style: none;
+    margin-top: 20px;
+    align-self: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    color:black;
+    transform: scale(1.02);
+    background-color: #d53c3c;
+    box-shadow: 0 6px 10px rgb(138, 138, 200);
+}
+
+.form{
+    border-radius: 1rem;
+    text-align: center;
+    margin:auto;
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 500px;
+    width: 550px;
+    background-color:#475086;
+    box-shadow: 0 18px 220px rgb(189, 89, 89);
+}
+.form p{
+    margin-top: 5px; 
+}
+
+#guessField{
+    width: 300px;
+    height: 30px;
+    align-self: center;
+    border-radius: 0.5rem;
+    border-style: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#guessField:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 4px 8px rgb(208, 177, 177);
+    background-color: #f2efef;
+}
+
+.footer{
+    margin-top:15px;
+}
+
+.form h1{
+    font-size: 40px;
+}
