@@ -16,13 +16,17 @@ const changeBgColor = function () {
   body.style.backgroundColor = color;
   console.log(`Color: ${color}`);
 };
-let interval;
+
+let intervalId;
 
 start.addEventListener("click", function () {
-  interval = setInterval(changeBgColor, 1000);
+  if (!intervalId) {
+    intervalId = setInterval(changeBgColor, 1000);
+  }
 });
 
 stop.addEventListener("click", function () {
-  clearInterval(interval);
+  clearInterval(intervalId);
   console.log(`Interval Stopped`);
+  intervalId = null;
 });
