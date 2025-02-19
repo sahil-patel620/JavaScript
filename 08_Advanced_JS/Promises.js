@@ -100,3 +100,19 @@ fetch("https://api.github.com/users/hiteshchoudhary")
 
 // promise.all
 // yes this is also available, kuch reading aap b kro.
+
+const url1 = 'https://api.example.com/data1';
+const url2 = 'https://api.example.com/data2';
+const url3 = 'https://api.example.com/data3';
+
+Promise.all([
+    fetch(url1).then(response => response.json()),
+    fetch(url2).then(response => response.json()),
+    fetch(url3).then(response => response.json())
+])
+.then((results) => {
+    console.log('All data fetched:', results);
+    // results is an array containing data from all three URLs
+})
+.catch((error) => {
+    console.error('One or more fetches failed:', error);
