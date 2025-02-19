@@ -1,0 +1,26 @@
+.card-style {
+    margin: 2vh 0 0 30vw;
+    border: 2px solid rgb(213, 31, 31);
+    border-radius: 20px;
+    background-color: #282832;
+    color: #fff;
+    height: 200px;
+    width: 200px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  .card-style:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 8px 100px rgb(235, 197, 9);
+  }
+  img {
+    margin-top: 10px;
+    box-shadow: 0px 10px 30px rgb(231, 18, 18);
+    max-width: 60%;
+    border-radius: 50%;
+  }
+  p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  }
