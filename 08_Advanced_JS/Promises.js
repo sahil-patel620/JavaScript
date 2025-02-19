@@ -116,3 +116,4 @@ Promise.all([
 })
 .catch((error) => {
     console.error('One or more fetches failed:', error);
+});
