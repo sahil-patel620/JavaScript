@@ -8,6 +8,7 @@ which i have learned from Chai And Code yt channel by Hitesh Chaudhary
 
 *Message 1*  
 _Testing italic_ 
+
 **Testing Bold** 
 __Testing Bold__ 
 
